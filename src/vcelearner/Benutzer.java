@@ -18,13 +18,13 @@ import java.sql.Statement;
  */
 public class Benutzer {
     
-    // Verbindungsvariablen
+    // Verbindungsvariablen 
     static Connection con = null;
     static Statement st = null;
     static PreparedStatement pst = null;
     static ResultSet rst = null;
     
-    // Variablen
+    // Variablen bzw. Eigenschaften
     private int id;
     private String login;
     private String passwort;
